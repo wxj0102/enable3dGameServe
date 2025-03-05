@@ -4,7 +4,7 @@ import User from "./class/User.mjs";
 import Game from './class/Game.mjs'
 import { nanoid } from "nanoid";
 
-const PORT = 5174
+const PORT = 8999
 
 const app = express()
 expressWs(app)
