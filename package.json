@@ -1,0 +1,16 @@
+{
+  "name": "game-server",
+  "version": "1.0.0",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node ./src/main.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-ws": "^5.0.2",
+    "nanoid": "^5.0.9"
+  }
+}
