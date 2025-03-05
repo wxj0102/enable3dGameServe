@@ -30,8 +30,6 @@ jobs:
         REMOTE_USER: "root"
         TARGET: "/home/3d/server"
         SCRIPT_AFTER: |
-          cd /home/3d/server
-          npm install
           cd /home/3d/
           docker compose down
           docker compose up -d
